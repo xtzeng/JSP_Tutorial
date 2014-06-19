@@ -6,3 +6,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 <%=request.getAttribute("river")%><br/> 
 <%=request.getAttribute("country")%> 
+
+
+<%=request.getParameter("river")%><br/> 
+<%=request.getParameter("country")%> 
