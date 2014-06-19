@@ -4,9 +4,9 @@ String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
 %>
 
-<%=request.getAttribute("river")%><br/> 
-<%=request.getAttribute("country")%> 
+<%request.setAttribute("river","redwater"); 
+  request.setAttribute("country","daguaiwan"); 
+%> 
+<a href="receive.jsp">receive</a>  <br/>
 
-
-<%=request.getParameter("river")%><br/> 
-<%=request.getParameter("country")%> 
+<a href="receive.jsp?river=redwater&country=daguaiwan">receiveWithParameters</a>

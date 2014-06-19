@@ -6,11 +6,13 @@
   <display-name>Archetype Created Web Application</display-name>
   
   <servlet>   
-  <servlet-name>tiane</servlet-name>   
-  <servlet-class>com.xiaoti.servlet.Tiane</servlet-class>   
+	  <servlet-name>tiane</servlet-name>   
+	  <servlet-class>com.xiaoti.servlet.Tiane</servlet-class>   
   </servlet>   
   <servlet-mapping>   
-  <servlet-name>tiane</servlet-name>   
-  <url-pattern>/tiane</url-pattern>   
-</servlet-mapping>  
+	  <servlet-name>tiane</servlet-name>   
+	  <url-pattern>/tiane</url-pattern>   
+  </servlet-mapping>  
+
+
 </web-app>

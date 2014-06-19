@@ -6,5 +6,5 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 <%request.setAttribute("river","redwater"); 
   request.setAttribute("country","daguaiwan"); 
-  response.sendRedirect("fengshan.jsp"); 
+  response.sendRedirect("receive.jsp"); 
 %> 

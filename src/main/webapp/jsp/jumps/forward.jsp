@@ -7,4 +7,4 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <%request.setAttribute("river","redwater"); 
   request.setAttribute("country","daguaiwan"); 
 %> 
-<jsp:forward page="fengshan.jsp" /> 
+<jsp:forward page="receive.jsp" /> 

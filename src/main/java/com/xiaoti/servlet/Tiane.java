@@ -11,9 +11,9 @@ public class Tiane extends HttpServlet {
 	 
 	  public void doGet(HttpServletRequest request, HttpServletResponse response)   
 	      throws ServletException, IOException {   
-//	    response.sendRedirect("/ForwardRedirect/fengshan.jsp");   
+//	    response.sendRedirect("/ForwardRedirect/receive.jsp");   
 	     this.getServletConfig().getServletContext()
-	                            .getRequestDispatcher("/fengshan.jsp").forward(request, response);   
+	                            .getRequestDispatcher("/jsp/jumps/receive.jsp").forward(request, response);   
 	  }   
 	 
 	  public void doPost(HttpServletRequest request, HttpServletResponse response)   
