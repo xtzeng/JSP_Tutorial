@@ -8,5 +8,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   request.setAttribute("country","daguaiwan");   
 %>   
    
-<jsp:forward page="/tiane" />  
-
+<jsp:forward page="/tiane" > <!--a servlet -->
+	<jsp:param name="river" value="redRiver" /> 
+	<jsp:param name="country" value="USA" /> 
+</jsp:forward>
